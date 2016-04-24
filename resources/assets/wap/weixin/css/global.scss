@@ -1,0 +1,88 @@
+html, body {
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body, .page {
+  background-color: #FBF9FE;
+}
+
+#app {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.page {
+  clear: both;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.page_title {
+  text-align: center;
+  font-size: 26px;
+  color: #3CC51F;
+  font-weight: 400;
+  margin: 1em 15% 1em;
+}
+
+.form_btn {
+   margin-top: 2em;
+   width: 95% !important;
+ }
+
+.weui_cell_hd {
+  font-size: 16px;
+}
+.weui_cell:before {
+  left: 0 !important;
+}
+
+textarea {
+  resize: none;
+}
+
+.big_info {
+  text-align: center;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 50%;
+}
+
+.menu {
+  margin: 0;
+  height: 36px;
+  padding-left: 8px;
+  line-height: 36px;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 100%;
+  font-size:12px;
+}
+
+.menu_item {
+  padding: 8px 8px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.menu_item a, .menu_item span {
+  color: #60b044;
+}
+
+.menu_item_active {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 4px;
+}
+
+.menu_item_active a, .menu_item_active span {
+  color: #FFF;
+}
+
+.user_categories {
+  float: right;
+  padding: 0 16px;
+}
+
+.list_item_dg {
+  border-left: 1px solid #ECECEC;
+  border-right: 1px solid #ECECEC;
+}
